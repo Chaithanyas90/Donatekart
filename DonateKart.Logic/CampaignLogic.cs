@@ -1,5 +1,4 @@
 ﻿using DonateKart.Api;
-using DonateKart.Dal;
 using DonateKart.Logic.Common;
 using System;
 using System.Linq;
@@ -61,7 +60,7 @@ namespace DonateKart.Logic
             {
                 Client.DonateKartClient client = new Client.DonateKartClient();
                 var result = client.GetCampaigns(new Client.CampaignListRequestClient { });
-                var campaignList = result.CampaignList.Where(c =>  (c.EndDate - DateTime.Now).TotalDays >= 30 && (c.Created - DateTime.Now).TotalDays <= 30).Select(camp => new Campaigns
+                var campaignList = result.CampaignList.Where(c =>  (c.Created - DateTime.Now).TotalDays <= 30 && c.EndDate.Date >= DateTime.Today).Select(camp => new Campaigns
                 {
                     Title = camp.Title,
                     TotalAmount = camp.TotalAmount,
@@ -93,7 +92,7 @@ namespace DonateKart.Logic
             {
                 Client.DonateKartClient client = new Client.DonateKartClient();
                 var result = client.GetCampaigns(new Client.CampaignListRequestClient { });
-                var campaignList = result.CampaignList.Where(c => (c.Created - DateTime.Now).TotalDays <= 30 && ((c.EndDate - DateTime.Now).TotalDays <= 0 || c.ProcuredAmount >= c.TotalAmount)).Select(camp => new Campaigns
+                var campaignList = result.CampaignList.Where(c => (c.Created - DateTime.Now).TotalDays <= 30 && (c.EndDate.Date < DateTime.Today || c.ProcuredAmount >= c.TotalAmount)).Select(camp => new Campaigns
                 {
                     Title = camp.Title,
                     TotalAmount = camp.TotalAmount,
