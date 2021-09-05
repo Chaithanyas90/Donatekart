@@ -1,0 +1,8 @@
+E:\DonateKart\DonateKart.Dal\bin\Debug\netcoreapp3.1\DonateKart.Dal.deps.json
+E:\DonateKart\DonateKart.Dal\bin\Debug\netcoreapp3.1\DonateKart.Dal.dll
+E:\DonateKart\DonateKart.Dal\bin\Debug\netcoreapp3.1\DonateKart.Dal.pdb
+E:\DonateKart\DonateKart.Dal\obj\Debug\netcoreapp3.1\DonateKart.Dal.AssemblyInfoInputs.cache
+E:\DonateKart\DonateKart.Dal\obj\Debug\netcoreapp3.1\DonateKart.Dal.AssemblyInfo.cs
+E:\DonateKart\DonateKart.Dal\obj\Debug\netcoreapp3.1\DonateKart.Dal.csproj.CoreCompileInputs.cache
+E:\DonateKart\DonateKart.Dal\obj\Debug\netcoreapp3.1\DonateKart.Dal.dll
+E:\DonateKart\DonateKart.Dal\obj\Debug\netcoreapp3.1\DonateKart.Dal.pdb

@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\DonateKart Web API\\Donatekart\\DonateKart.Logic\\DonateKart.Logic.csproj": {}
+  },
+  "projects": {
+    "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\DonateKart.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\DonateKart.Api.csproj",
+        "projectName": "DonateKart.Api",
+        "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\DonateKart.Api.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\DonateKart Web API\\Donatekart\\DonateKart.Dal\\DonateKart.Dal.csproj": {
+                "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Dal\\DonateKart.Dal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DonateKart Web API\\Donatekart\\DonateKart.Client\\DonateKart.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Client\\DonateKart.Client.csproj",
+        "projectName": "DonateKart.Client",
+        "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Client\\DonateKart.Client.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\DonateKart.Api.csproj": {
+                "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\DonateKart.Api.csproj"
+              },
+              "E:\\DonateKart Web API\\Donatekart\\DonateKart.Common\\DonateKart.Common.csproj": {
+                "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Common\\DonateKart.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DonateKart Web API\\Donatekart\\DonateKart.Common\\DonateKart.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Common\\DonateKart.Common.csproj",
+        "projectName": "DonateKart.Common",
+        "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Common\\DonateKart.Common.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\DonateKart.Api.csproj": {
+                "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\DonateKart.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DonateKart Web API\\Donatekart\\DonateKart.Dal\\DonateKart.Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Dal\\DonateKart.Dal.csproj",
+        "projectName": "DonateKart.Dal",
+        "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Dal\\DonateKart.Dal.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Dal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DonateKart Web API\\Donatekart\\DonateKart.Logic\\DonateKart.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Logic\\DonateKart.Logic.csproj",
+        "projectName": "DonateKart.Logic",
+        "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Logic\\DonateKart.Logic.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\DonateKart.Api.csproj": {
+                "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Api\\DonateKart.Api.csproj"
+              },
+              "E:\\DonateKart Web API\\Donatekart\\DonateKart.Client\\DonateKart.Client.csproj": {
+                "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Client\\DonateKart.Client.csproj"
+              },
+              "E:\\DonateKart Web API\\Donatekart\\DonateKart.Common\\DonateKart.Common.csproj": {
+                "projectPath": "E:\\DonateKart Web API\\Donatekart\\DonateKart.Common\\DonateKart.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

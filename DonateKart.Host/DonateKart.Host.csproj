@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="13.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DonateKart.Api\DonateKart.Api.csproj" />
+    <ProjectReference Include="..\DonateKart.Client\DonateKart.Client.csproj" />
+    <ProjectReference Include="..\DonateKart.Common\DonateKart.Common.csproj" />
+    <ProjectReference Include="..\DonateKart.Controller\DonateKart.Controller.csproj" />
+    <ProjectReference Include="..\DonateKart.Dal\DonateKart.Dal.csproj" />
+    <ProjectReference Include="..\DonateKart.Logic\DonateKart.Logic.csproj" />
+  </ItemGroup>
+
+
+</Project>
